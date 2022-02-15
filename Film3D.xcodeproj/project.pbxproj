@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A49303927BC3DAB000AC7FA /* Film3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49303827BC3DAB000AC7FA /* Film3DApp.swift */; };
+		1A49303B27BC3DAB000AC7FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49303A27BC3DAB000AC7FA /* ContentView.swift */; };
+		1A49303D27BC3DAB000AC7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A49303C27BC3DAB000AC7FA /* Assets.xcassets */; };
+		1A49304027BC3DAB000AC7FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A49303F27BC3DAB000AC7FA /* Preview Assets.xcassets */; };
+		1A49304B27BC3DAB000AC7FA /* Film3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49304A27BC3DAB000AC7FA /* Film3DTests.swift */; };
+		1A49305527BC3DAB000AC7FA /* Film3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49305427BC3DAB000AC7FA /* Film3DUITests.swift */; };
+		1A49305727BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49305627BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A49304727BC3DAB000AC7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A49302D27BC3DAB000AC7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A49303427BC3DAB000AC7FA;
+			remoteInfo = Film3D;
+		};
+		1A49305127BC3DAB000AC7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A49302D27BC3DAB000AC7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A49303427BC3DAB000AC7FA;
+			remoteInfo = Film3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A49303527BC3DAB000AC7FA /* Film3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Film3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A49303827BC3DAB000AC7FA /* Film3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film3DApp.swift; sourceTree = "<group>"; };
+		1A49303A27BC3DAB000AC7FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A49303C27BC3DAB000AC7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A49303F27BC3DAB000AC7FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A49304127BC3DAB000AC7FA /* Film3D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Film3D.entitlements; sourceTree = "<group>"; };
+		1A49304627BC3DAB000AC7FA /* Film3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Film3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A49304A27BC3DAB000AC7FA /* Film3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film3DTests.swift; sourceTree = "<group>"; };
+		1A49305027BC3DAB000AC7FA /* Film3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Film3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A49305427BC3DAB000AC7FA /* Film3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film3DUITests.swift; sourceTree = "<group>"; };
+		1A49305627BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A49303227BC3DAB000AC7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A49304327BC3DAB000AC7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A49304D27BC3DAB000AC7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A49302C27BC3DAB000AC7FA = {
+			isa = PBXGroup;
+			children = (
+				1A49303727BC3DAB000AC7FA /* Film3D */,
+				1A49304927BC3DAB000AC7FA /* Film3DTests */,
+				1A49305327BC3DAB000AC7FA /* Film3DUITests */,
+				1A49303627BC3DAB000AC7FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A49303627BC3DAB000AC7FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A49303527BC3DAB000AC7FA /* Film3D.app */,
+				1A49304627BC3DAB000AC7FA /* Film3DTests.xctest */,
+				1A49305027BC3DAB000AC7FA /* Film3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A49303727BC3DAB000AC7FA /* Film3D */ = {
+			isa = PBXGroup;
+			children = (
+				1A49303827BC3DAB000AC7FA /* Film3DApp.swift */,
+				1A49303A27BC3DAB000AC7FA /* ContentView.swift */,
+				1A49303C27BC3DAB000AC7FA /* Assets.xcassets */,
+				1A49304127BC3DAB000AC7FA /* Film3D.entitlements */,
+				1A49303E27BC3DAB000AC7FA /* Preview Content */,
+			);
+			path = Film3D;
+			sourceTree = "<group>";
+		};
+		1A49303E27BC3DAB000AC7FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A49303F27BC3DAB000AC7FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A49304927BC3DAB000AC7FA /* Film3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A49304A27BC3DAB000AC7FA /* Film3DTests.swift */,
+			);
+			path = Film3DTests;
+			sourceTree = "<group>";
+		};
+		1A49305327BC3DAB000AC7FA /* Film3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A49305427BC3DAB000AC7FA /* Film3DUITests.swift */,
+				1A49305627BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift */,
+			);
+			path = Film3DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A49303427BC3DAB000AC7FA /* Film3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A49305A27BC3DAB000AC7FA /* Build configuration list for PBXNativeTarget "Film3D" */;
+			buildPhases = (
+				1A49303127BC3DAB000AC7FA /* Sources */,
+				1A49303227BC3DAB000AC7FA /* Frameworks */,
+				1A49303327BC3DAB000AC7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Film3D;
+			productName = Film3D;
+			productReference = 1A49303527BC3DAB000AC7FA /* Film3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A49304527BC3DAB000AC7FA /* Film3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A49305D27BC3DAB000AC7FA /* Build configuration list for PBXNativeTarget "Film3DTests" */;
+			buildPhases = (
+				1A49304227BC3DAB000AC7FA /* Sources */,
+				1A49304327BC3DAB000AC7FA /* Frameworks */,
+				1A49304427BC3DAB000AC7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A49304827BC3DAB000AC7FA /* PBXTargetDependency */,
+			);
+			name = Film3DTests;
+			productName = Film3DTests;
+			productReference = 1A49304627BC3DAB000AC7FA /* Film3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A49304F27BC3DAB000AC7FA /* Film3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A49306027BC3DAB000AC7FA /* Build configuration list for PBXNativeTarget "Film3DUITests" */;
+			buildPhases = (
+				1A49304C27BC3DAB000AC7FA /* Sources */,
+				1A49304D27BC3DAB000AC7FA /* Frameworks */,
+				1A49304E27BC3DAB000AC7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A49305227BC3DAB000AC7FA /* PBXTargetDependency */,
+			);
+			name = Film3DUITests;
+			productName = Film3DUITests;
+			productReference = 1A49305027BC3DAB000AC7FA /* Film3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A49302D27BC3DAB000AC7FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1A49303427BC3DAB000AC7FA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					1A49304527BC3DAB000AC7FA = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1A49303427BC3DAB000AC7FA;
+					};
+					1A49304F27BC3DAB000AC7FA = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1A49303427BC3DAB000AC7FA;
+					};
+				};
+			};
+			buildConfigurationList = 1A49303027BC3DAB000AC7FA /* Build configuration list for PBXProject "Film3D" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A49302C27BC3DAB000AC7FA;
+			productRefGroup = 1A49303627BC3DAB000AC7FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A49303427BC3DAB000AC7FA /* Film3D */,
+				1A49304527BC3DAB000AC7FA /* Film3DTests */,
+				1A49304F27BC3DAB000AC7FA /* Film3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A49303327BC3DAB000AC7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A49304027BC3DAB000AC7FA /* Preview Assets.xcassets in Resources */,
+				1A49303D27BC3DAB000AC7FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A49304427BC3DAB000AC7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A49304E27BC3DAB000AC7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A49303127BC3DAB000AC7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A49303B27BC3DAB000AC7FA /* ContentView.swift in Sources */,
+				1A49303927BC3DAB000AC7FA /* Film3DApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A49304227BC3DAB000AC7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A49304B27BC3DAB000AC7FA /* Film3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A49304C27BC3DAB000AC7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A49305527BC3DAB000AC7FA /* Film3DUITests.swift in Sources */,
+				1A49305727BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A49304827BC3DAB000AC7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A49303427BC3DAB000AC7FA /* Film3D */;
+			targetProxy = 1A49304727BC3DAB000AC7FA /* PBXContainerItemProxy */;
+		};
+		1A49305227BC3DAB000AC7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A49303427BC3DAB000AC7FA /* Film3D */;
+			targetProxy = 1A49305127BC3DAB000AC7FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A49305827BC3DAB000AC7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A49305927BC3DAB000AC7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1A49305B27BC3DAB000AC7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Film3D/Film3D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Film3D/Preview Content\"";
+				DEVELOPMENT_TEAM = BDV4VC27D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhonabwy.Film3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1A49305C27BC3DAB000AC7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Film3D/Film3D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Film3D/Preview Content\"";
+				DEVELOPMENT_TEAM = BDV4VC27D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhonabwy.Film3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1A49305E27BC3DAB000AC7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV4VC27D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhonabwy.Film3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Film3D.app/Contents/MacOS/Film3D";
+			};
+			name = Debug;
+		};
+		1A49305F27BC3DAB000AC7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV4VC27D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhonabwy.Film3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Film3D.app/Contents/MacOS/Film3D";
+			};
+			name = Release;
+		};
+		1A49306127BC3DAB000AC7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV4VC27D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhonabwy.Film3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Film3D;
+			};
+			name = Debug;
+		};
+		1A49306227BC3DAB000AC7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDV4VC27D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhonabwy.Film3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Film3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A49303027BC3DAB000AC7FA /* Build configuration list for PBXProject "Film3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A49305827BC3DAB000AC7FA /* Debug */,
+				1A49305927BC3DAB000AC7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A49305A27BC3DAB000AC7FA /* Build configuration list for PBXNativeTarget "Film3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A49305B27BC3DAB000AC7FA /* Debug */,
+				1A49305C27BC3DAB000AC7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A49305D27BC3DAB000AC7FA /* Build configuration list for PBXNativeTarget "Film3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A49305E27BC3DAB000AC7FA /* Debug */,
+				1A49305F27BC3DAB000AC7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A49306027BC3DAB000AC7FA /* Build configuration list for PBXNativeTarget "Film3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A49306127BC3DAB000AC7FA /* Debug */,
+				1A49306227BC3DAB000AC7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A49302D27BC3DAB000AC7FA /* Project object */;
+}
