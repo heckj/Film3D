@@ -14,6 +14,8 @@
 		1A49304B27BC3DAB000AC7FA /* Film3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49304A27BC3DAB000AC7FA /* Film3DTests.swift */; };
 		1A49305527BC3DAB000AC7FA /* Film3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49305427BC3DAB000AC7FA /* Film3DUITests.swift */; };
 		1A49305727BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49305627BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift */; };
+		1A49306627BC3FFD000AC7FA /* CameraControlARView in Frameworks */ = {isa = PBXBuildFile; productRef = 1A49306527BC3FFD000AC7FA /* CameraControlARView */; };
+		1A49306827BC4036000AC7FA /* SpinARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49306727BC4036000AC7FA /* SpinARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		1A49305027BC3DAB000AC7FA /* Film3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Film3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A49305427BC3DAB000AC7FA /* Film3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film3DUITests.swift; sourceTree = "<group>"; };
 		1A49305627BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A49306327BC3F1C000AC7FA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A49306727BC4036000AC7FA /* SpinARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A49306627BC3FFD000AC7FA /* CameraControlARView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +80,7 @@
 		1A49302C27BC3DAB000AC7FA = {
 			isa = PBXGroup;
 			children = (
+				1A49306327BC3F1C000AC7FA /* README.md */,
 				1A49303727BC3DAB000AC7FA /* Film3D */,
 				1A49304927BC3DAB000AC7FA /* Film3DTests */,
 				1A49305327BC3DAB000AC7FA /* Film3DUITests */,
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				1A49303827BC3DAB000AC7FA /* Film3DApp.swift */,
+				1A49306727BC4036000AC7FA /* SpinARView.swift */,
 				1A49303A27BC3DAB000AC7FA /* ContentView.swift */,
 				1A49303C27BC3DAB000AC7FA /* Assets.xcassets */,
 				1A49304127BC3DAB000AC7FA /* Film3D.entitlements */,
@@ -145,6 +152,9 @@
 			dependencies = (
 			);
 			name = Film3D;
+			packageProductDependencies = (
+				1A49306527BC3FFD000AC7FA /* CameraControlARView */,
+			);
 			productName = Film3D;
 			productReference = 1A49303527BC3DAB000AC7FA /* Film3D.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +227,9 @@
 				Base,
 			);
 			mainGroup = 1A49302C27BC3DAB000AC7FA;
+			packageReferences = (
+				1A49306427BC3FFD000AC7FA /* XCRemoteSwiftPackageReference "CameraControlARView" */,
+			);
 			productRefGroup = 1A49303627BC3DAB000AC7FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +274,7 @@
 			files = (
 				1A49303B27BC3DAB000AC7FA /* ContentView.swift in Sources */,
 				1A49303927BC3DAB000AC7FA /* Film3DApp.swift in Sources */,
+				1A49306827BC4036000AC7FA /* SpinARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +590,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A49306427BC3FFD000AC7FA /* XCRemoteSwiftPackageReference "CameraControlARView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heckj/CameraControlARView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A49306527BC3FFD000AC7FA /* CameraControlARView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A49306427BC3FFD000AC7FA /* XCRemoteSwiftPackageReference "CameraControlARView" */;
+			productName = CameraControlARView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A49302D27BC3DAB000AC7FA /* Project object */;
 }
