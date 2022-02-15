@@ -12,7 +12,13 @@ import Combine
 import UniformTypeIdentifiers
 import CameraControlARView
 
+/// The core view of Film3D.
+///
+/// The embedded `ARViewContainer` view accepts drag and drop that accepts file URLs and attempts
+/// to load them as 3D models into the RealityKit view it wraps.
 struct SpinARView : View {
+    // Establishes and owns the state for the ARView internal to the
+    // `ARViewContainer`.
     @StateObject private var arView: CameraControlARView = {
         let arView = CameraControlARView(frame: .zero)
         
@@ -23,16 +29,33 @@ struct SpinARView : View {
 //        arView.scene.anchors.append(boxAnchor)
         return arView
     }()
+    
+    // Boolean value that indicates that some debugging views are enabled
+    // for the wrapped AVViewContainer.
     @State private var debugEnabled = false
 
+    // Set of `AnyCancellable` to hold timer invocations that orbit the camera in RealityKit
+    // around a location.
     @State private var cancellables: Set<AnyCancellable> = []
-    @State private var load_cancellables: Set<AnyCancellable> = []
-    @State private var snapshots: [NSImage] = []
-    @State private var name_for_file: String = ""
-    @State private var frames_per_second: Int = 20
     
+    // Set of `AnyCancellable` to hold loading 3D models after drag&drag actions
+    @State private var load_cancellables: Set<AnyCancellable> = []
+    
+    // The collection of snapshots captured during an orbit.
+    @State private var snapshots: [NSImage] = []
+    // The default name of the file to save as an animated gif.
+    @State private var name_for_file: String = ""
+    // The default number of frames-per-second for the animated gif.
+    @State private var frames_per_second: Int = 20
+    // Boolean value that indicates if the ARContentView has been dragged over.
     @State private var dragOver = false
     
+    /// Generates an animated gif from a collection of images and saves the resulting file.
+    /// - Parameters:
+    ///   - images: The collection of images to process into an animated gif.
+    ///   - filename: The filename to use when saving the animated gif file.
+    ///   - frameDelay: The delay between frames (`1/framerate`) for the animated gif.
+    /// - Returns: A Boolean value that indicates if the file was saved.
     func animatedGifFromImages(images: [NSImage], filename: String, frameDelay: Double) -> Bool {
         let directory_url = FileManager.default.urls(for: .documentDirectory,
                                             in: .userDomainMask)[0]
@@ -69,12 +92,16 @@ struct SpinARView : View {
         }
         return false
     }
-
+    
+    /// The view's timer to drive animated frame captures in order to generate an animated gif.
     let timer = Timer.publish(every: 0.05, on: .main, in: .common).autoconnect()
     
+    /// The current rotation value for the arcball view rotation within the AR view.
     @State var rotation: Float = 0
+    /// A Boolean value indicating if the timer is connected and activated for modifying the view.
     @State var timer_connected: Bool = false
     
+    /// The view declaration.
     var body: some View {
         VStack {
             HStack {

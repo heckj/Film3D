@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// The SwiftUI app context and declaration.
 @main
 struct Film3DApp: App {
     var body: some Scene {

@@ -16,6 +16,7 @@
 		1A49305727BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49305627BC3DAB000AC7FA /* Film3DUITestsLaunchTests.swift */; };
 		1A49306627BC3FFD000AC7FA /* CameraControlARView in Frameworks */ = {isa = PBXBuildFile; productRef = 1A49306527BC3FFD000AC7FA /* CameraControlARView */; };
 		1A49306827BC4036000AC7FA /* SpinARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49306727BC4036000AC7FA /* SpinARView.swift */; };
+		1A8D438427BC4C6C003935C6 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1A8D438327BC4BEB003935C6 /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		1A49306327BC3F1C000AC7FA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A49306727BC4036000AC7FA /* SpinARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinARView.swift; sourceTree = "<group>"; };
 		1A8CAF5F27BC48100051BCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1A8D438327BC4BEB003935C6 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		1A49303727BC3DAB000AC7FA /* Film3D */ = {
 			isa = PBXGroup;
 			children = (
+				1A8D438327BC4BEB003935C6 /* Documentation.docc */,
 				1A8CAF5F27BC48100051BCC8 /* Info.plist */,
 				1A49303827BC3DAB000AC7FA /* Film3DApp.swift */,
 				1A49306727BC4036000AC7FA /* SpinARView.swift */,
@@ -277,6 +280,7 @@
 				1A49303B27BC3DAB000AC7FA /* ContentView.swift in Sources */,
 				1A49303927BC3DAB000AC7FA /* Film3DApp.swift in Sources */,
 				1A49306827BC4036000AC7FA /* SpinARView.swift in Sources */,
+				1A8D438427BC4C6C003935C6 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
