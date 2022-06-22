@@ -8,7 +8,6 @@
 import XCTest
 
 class Film3DUITestsLaunchTests: XCTestCase {
-
     /// Determines whether the tests in this class should run multiple times, once for each of the target application's UI configurations.
     ///
     /// Returns false by default. If overridden in a UI test subclass to return true, each test in that

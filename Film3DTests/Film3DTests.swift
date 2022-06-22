@@ -5,11 +5,10 @@
 //  Created by Joseph Heck on 2/15/22.
 //
 
-import XCTest
 @testable import Film3D
+import XCTest
 
 class Film3DTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -25,5 +24,4 @@ class Film3DTests: XCTestCase {
 //        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
 //        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
 //    }
-
 }
